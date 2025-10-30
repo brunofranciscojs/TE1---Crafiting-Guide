@@ -4,31 +4,20 @@ Um projeto em React + TailwindCSS que recria o visual original do jogo The Escap
 
 O objetivo é oferecer uma experiência nostálgica e funcional para consultar rapidamente os itens e seus requisitos de craft — mantendo a estética e atmosfera do jogo original.
 
-- Status do Projeto
-
-- Work in Progress
+- Status do Projeto: Work in Progress
   
 ### Atualmente o projeto inclui:
 - Listagem de Weapons e Tools
-
 - Paginação para navegar entre as listas
-
 - Reprodução da OST original do jogo
-
 - Backgrounds aleatórios a cada carregamento
-
 - Interface inspirada fielmente na UI clássica de The Escapists
 
 ### Próximos passos planejados:
-
 - Adicionar categorias restantes (Outfits, Utilities, Keys, etc.)
-
 - Sistema de busca e filtros
-
 - Melhorar responsividade mobile
-
 - Modo offline (PWA)
-
 - Tecnologias Utilizadas
 
 ### React
@@ -55,23 +44,17 @@ src/
 ├─ App.jsx              # Componente principal
 ├─ index.css            # Estilos globais (Tailwind)
 ```
+
 ## Funcionalidades
-
-Alterna entre páginas com botões numerados
-
-Reproduz/pausa a música com controle de volume
-
-Renderiza até 3 itens por página
-
-Atualiza o background aleatoriamente a cada reload
+- Alterna entre páginas com botões numerados
+- Reproduz/pausa a música com controle de volume
+- Renderiza até 3 itens por página
+- Atualiza o background aleatoriamente a cada reload
 
 ## Créditos
-
-The Escapists é propriedade da Mouldy Toof Studios / Team17
-
-Trilha sonora e ícones pertencem aos criadores originais
-
-Projeto sem fins lucrativos, criado para fins educacionais e nostálgicos
+- The Escapists é propriedade da Mouldy Toof Studios / Team17
+- Trilha sonora e ícones pertencem aos criadores originais
+- Projeto sem fins lucrativos, criado para fins educacionais e nostálgicos
 
 ## Autor
 
