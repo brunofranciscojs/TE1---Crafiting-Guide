@@ -1,18 +1,80 @@
-# React + Vite
+🧰 The Escapists 1 — Crafting Guide
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um projeto em React + TailwindCSS que recria o visual original do jogo The Escapists 1, apresentando uma interface interativa com as receitas de Weapons e Tools.
 
-Currently, two official plugins are available:
+O objetivo é oferecer uma experiência nostálgica e funcional para consultar rapidamente os itens e seus requisitos de craft — mantendo a estética e atmosfera do jogo original.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚧 Status do Projeto
 
-## React Compiler
+🧱 Work in Progress
+Atualmente o projeto inclui:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+📜 Listagem de Weapons e Tools
 
-Note: This will impact Vite dev & build performances.
+📄 Paginação para navegar entre as listas
 
-## Expanding the ESLint configuration
+🎵 Reprodução da OST original do jogo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🖼️ Backgrounds aleatórios a cada carregamento
+
+💅 Interface inspirada fielmente na UI clássica de The Escapists
+
+Próximos passos planejados:
+
+🔨 Adicionar categorias restantes (Outfits, Utilities, Keys, etc.)
+
+🔍 Sistema de busca e filtros
+
+📱 Melhorar responsividade mobile
+
+💾 Modo offline (PWA)
+
+⚙️ Tecnologias Utilizadas
+
+React
+ — Estrutura base da aplicação
+
+TailwindCSS
+ — Estilização rápida e modular
+
+Vite
+ — Build tool leve e moderna
+
+JSON local — Armazena os dados dos itens (Weapons e Tools)
+
+Áudio HTML5 — Controle da trilha sonora
+
+## Estrutura Básica
+src/
+├─ assets/              # Imagens dos itens (Sock_Mace.png, etc.)
+├─ components/
+│  ├─ Item.jsx          # Card de exibição de cada item
+├─ data/
+│  ├─ items.json        # Lista com Weapons e Tools
+├─ App.jsx              # Componente principal
+├─ index.css            # Estilos globais (Tailwind)
+
+## Funcionalidades
+
+Alterna entre páginas com botões numerados
+
+Reproduz/pausa a música com controle de volume
+
+Renderiza até 3 itens por página
+
+Atualiza o background aleatoriamente a cada reload
+
+## Créditos
+
+🎮 The Escapists é propriedade da Mouldy Toof Studios / Team17
+
+Trilha sonora e ícones pertencem aos criadores originais
+
+Projeto sem fins lucrativos, criado para fins educacionais e nostálgicos
+
+## Autor
+
+Bruno F. Cardoso
+
+Front-end Developer & Web Designer
+Projeto pessoal inspirado em The Escapists (2015)
