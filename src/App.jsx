@@ -58,7 +58,7 @@ function App() {
         <span className='w-96 h-96 bg-yellow-200/20 blur-3xl rounded-full absolute left-1/2 top-1/2 [translate:-50%_-50%] z-99 mix-blend-plus-lighter block'></span>
 
         {tab === 'Weapons' && 
-            <div className="flex flex-col h-dvh max-w-[800px] mx-auto justify-center gap-10 min-h-109 rounded-sm bg-[url(./src/assets/page.webp)]" data-tab={'Journal'}>
+            <div className="flex flex-col h-dvh max-w-[800px] mx-auto justify-center gap-10 min-h-109 rounded-sm bg-[url(../src/assets/page.webp)]" data-tab={'Journal'}>
               {weaponsPagina.map((item, index) =>  <Items item={item} key={index} /> )}
       
               {totalPaginas && (
@@ -77,12 +77,12 @@ function App() {
               )}
             </div>
           }
-        {tab === 'Wearables' && <div className="flex flex-col h-dvh max-w-[800px] mx-auto justify-center gap-10 min-h-109 rounded-sm bg-[url(./src/assets/page.webp)]" data-tab={'Favours'}></div>}
-        {tab === 'C. Devices' && <div className="flex flex-col h-dvh max-w-[800px] mx-auto justify-center gap-10 min-h-109 rounded-sm bg-[url(./src/assets/page.webp)]" data-tab={'Favours'}></div>}
-        {tab === 'Miscellaneous' && <div className="flex flex-col h-dvh max-w-[800px] mx-auto justify-center gap-10 min-h-109 rounded-sm bg-[url(./src/assets/page.webp)]" data-tab={'Favours'}></div>}
+        {tab === 'Wearables' && <div className="flex flex-col h-dvh max-w-[800px] mx-auto justify-center gap-10 min-h-109 rounded-sm bg-[url(../src/assets/page.webp)]" data-tab={'Favours'}></div>}
+        {tab === 'C. Devices' && <div className="flex flex-col h-dvh max-w-[800px] mx-auto justify-center gap-10 min-h-109 rounded-sm bg-[url(../src/assets/page.webp)]" data-tab={'Favours'}></div>}
+        {tab === 'Miscellaneous' && <div className="flex flex-col h-dvh max-w-[800px] mx-auto justify-center gap-10 min-h-109 rounded-sm bg-[url(../src/assets/page.webp)]" data-tab={'Favours'}></div>}
     
         {tab === 'Tools' &&
-          <div className="flex flex-col h-dvh max-w-[800px] mx-auto justify-between gap-10 active z-20 rounded-sm bg-[url(./src/assets/page.webp)]" data-tab={'Tools'}>
+          <div className="flex flex-col h-dvh max-w-[800px] mx-auto justify-between gap-10 active z-20 rounded-sm bg-[url(../src/assets/page.webp)]" data-tab={'Tools'}>
             {itensPagina.map((item, index) =>  <Items item={item} key={index} /> )}
       
             {totalPaginas && (
