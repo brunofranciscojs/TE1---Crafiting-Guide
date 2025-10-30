@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+        "Item": " Flimsy Pickaxe",
+        "image":"./src/assets/Flimsy_Pickaxe.webp",
+        "Requirements": "Tool Handle - Roll of Duct Tape"
+    },
+    {
+        "Item": " Lightweight Pickaxe",
+        "image":"./src/assets/Lightweight_Pickaxe.webp",
+        "Requirements": "Flimsy Pickaxe - Roll of Duct Tape"
+    },
+    {
+        "Item": " Sturdy Pickaxe",
+        "image":"./src/assets/Sturdy_Pickaxe.webp",
+        "Requirements": "Lightweight Pickaxe OR Sturdy Pickaxe - Roll of Duct Tape"
+    },
+    {
+        "Item": " Flimsy Shovel",
+        "image":"./src/assets/Flimsy_Shovel.webp",
+        "Requirements": "Tool Handle - Roll of Duct Tape"
+    },
+    {
+        "Item": " Lightweight Shovel",
+        "image":"./src/assets/Lightweight_Shovel.webp",
+        "Requirements": "Flimsy Shovel - Roll of Duct Tape"
+    },
+    {
+        "Item": " Sturdy Shovel",
+        "image":"./src/assets/Sturdy_Shovel.webp",
+        "Requirements": "Lightweight Shovel OR Sturdy Shovel - Roll of Duct Tape "
+    },
+    {
+        "Item": " Flimsy Cutters",
+        "image":"./src/assets/Flimsy_Cutters.webp",
+        "Requirements": "File - File - Roll of Duct Tape"
+    },
+    {
+        "Item": " Lightweight Cutters",
+        "image":"./src/assets/Lightweight_Cutters.webp",
+        "Requirements": "Flimsy Cutters - File - Roll of Duct Tape"
+    },
+    {
+        "Item": " Sturdy Cutters",
+        "image":"./src/assets/Sturdy_Cutters.webp",
+        "Requirements": "Lightweight Cutters OR - File - Roll of Duct Tape"
+    },
+    {
+        "Item": " Multitool",
+        "image":"./src/assets/Multitool.webp",
+        "Requirements": "Sturdy Shovel - Sturdy Pickaxe - Roll of Duct Tape"
+    },
+    {
+        "Item": " Cutting Floss",
+        "image":"./src/assets/Cutting_Floss.webp",
+        "Requirements": "Dental Floss x3"
+    },
+    {
+        "Item": " Powered Screwdriver",
+        "image":"./src/assets/Powered_Screwdriver.webp",
+        "Requirements": "Screwdriver - Battery"
+    }
+]
+}

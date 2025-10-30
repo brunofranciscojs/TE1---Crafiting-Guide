@@ -1,0 +1,40 @@
+@import "tailwindcss";
+section{
+  div{
+    @apply w-full h-auto min-h-125 bg-[url(./src/assets/page.jpg)] bg-no-repeat bg-center bg-cover px-20 py-12 shadow-2xl shadow-black/75;
+    clip-path: 
+      path( 
+        "M0 0 H1200 V1400 H0 Z M25 30 a8 8 0 1 0 0.01 0 M25 70 a8 8 0 1 0 0.01 0 M25 110 a8 8 0 1 0 0.01 0 M25 150 a8 8 0 1 0 0.01 0 M25 190 a8 8 0 1 0 0.01 0 M25 230 a8 8 0 1 0 0.01 0 M25 270 a8 8 0 1 0 0.01 0 M25 310 a8 8 0 1 0 0.01 0 M25 350 a8 8 0 1 0 0.01 0 M25 390 a8 8 0 1 0 0.01 0 M25 430 a8 8 0 1 0 0.01 0 M25 470 a8 8 0 1 0 0.01 0" );
+  }
+}
+  button.active{
+    @apply brightness-100  bg-[#dad3b7]
+  }
+ul{
+  button{
+    @apply brightness-70 text-[#40478e] text-base cursor-pointer hover:brightness-100 duration-200 font-semibold bg-[#dad3b7] px-9 min-w-32 max-w-44 leading-4 py-2 [clip-path:polygon(20%_0,80%_0,100%_100%,0_100%)];
+  }
+}
+@keyframes bg{
+  0%{
+    background:url(./src/assets/bg-0.avif);
+  }
+  20%{
+    background:url(./src/assets/bg-1.avif);
+  }
+  40%{
+    background:url(./src/assets/bg-2.avif);
+  }
+  60%{
+    background:url(./src/assets/bg-3.avif);
+  }
+  80%{
+    background:url(./src/assets/bg-4.avif);
+  }
+  90%{
+    background:url(./src/assets/bg-5.avif);
+  }
+  100%{
+    background:url(./src/assets/bg-0.avif);
+  }
+}

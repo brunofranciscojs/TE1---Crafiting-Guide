@@ -1,0 +1,159 @@
+{
+  "weapons":[
+{
+        "Item": "Sock Mace",
+        "Requirements": "Soap + Sock",
+        "image": "./src/assets/Sock_Mace.webp"
+    },
+    {
+        "Item": "Super Sock Mace",
+        "Requirements": "Battery + Sock",
+        "image": "./src/assets/Super_Sock_Mace.webp"
+    },
+    {
+        "Item": "Comb Shiv",
+        "Requirements": "Comb (craft via melt)",
+        "image": "./src/assets/Comb_Shiv.webp"
+    },
+    {
+        "Item": "Razor Blade Shiv",
+        "Requirements": "Razor Blade + Comb/Toothbrush",
+        "image": "./src/assets/Razor_Blade_Shiv.webp"
+    },
+    {
+        "Item": "Whip",
+        "Requirements": "Wire + Razor Blade + Timber",
+        "image": "./src/assets/Whip.webp"
+    },
+    {
+        "Item": "Nunchucks",
+        "Requirements": "Timber + Timber + Wire",
+        "image": "./src/assets/Nunchucks.webp"
+    },
+    {
+        "Item": "Timber Brace",
+        "Requirements": "Timber + Timber",
+        "image": "./src/assets/Timber_Brace.webp"
+    },
+    {
+        "Item": "Trowel",
+        "Requirements": "Buy or find",
+        "image": "./src/assets/Trowel.webp"
+    },
+    {
+        "Item": "Crowbar",
+        "Requirements": "Buy or find",
+        "image": "./src/assets/Crowbar.webp"
+    },
+    {
+        "Item": "Baseball Bat",
+        "Requirements": "Timber + Nails",
+        "image": "./src/assets/Baseball_Bat.webp"
+    },
+    {
+        "Item": "Spiked Bat",
+        "Requirements": "Baseball Bat + Nails",
+        "image": "./src/assets/Spiked_Bat.webp"
+    },
+    {
+        "Item": "Plastic Knife",
+        "Requirements": "Found in cafeteria",
+        "image": "./src/assets/Plastic_Knife.webp"
+    },
+    {
+        "Item": "Comb Blade",
+        "Requirements": "Comb melted with Lighter",
+        "image": "./src/assets/Comb_Blade.webp"
+    },
+    {
+        "Item": "Cup of Molten Chocolate",
+        "Requirements": "Chocolate + Cup + Lighter",
+        "image": "./src/assets/Cup_of_Molten_Chocolate.webp"
+    },
+    {
+        "Item": "Molten Plastic",
+        "Requirements": "Lighter + Comb/Toothbrush",
+        "image": "./src/assets/Molten_Plastic.webp"
+    },
+    {
+        "Item": "Timber Shank",
+        "Requirements": "Timber + Razor Blade",
+        "image": "./src/assets/Timber_Shank.webp"
+    },
+    {
+        "Item": "Glass Shank",
+        "Requirements": "Broken Glass + Tape",
+        "image": "./src/assets/Glass_Shank.webp"
+    },
+    {
+        "Item": "Knuckle Duster",
+        "Requirements": "Razor Blade + Duct Tape",
+        "image": "./src/assets/Knuckle_Duster.webp"
+    },
+    {
+        "Item": "Nail Bat",
+        "Requirements": "Timber + Nails",
+        "image": "./src/assets/Nail_Bat.webp"
+    },
+    {
+        "Item": "Tool Handle",
+        "Requirements": "Timber + File",
+        "image": "./src/assets/Tool_Handle.webp"
+    },
+    {
+        "Item": "Pickaxe",
+        "Requirements": "Tool Handle + Crowbar + Duct Tape",
+        "image": "./src/assets/Pickaxe.webp"
+    },
+    {
+        "Item": "Super Pickaxe",
+        "Requirements": "Pickaxe + Timber + Duct Tape",
+        "image": "./src/assets/Super_Pickaxe.webp"
+    },
+    {
+        "Item": "Multitool",
+        "Requirements": "Super Pickaxe + Super Shovel",
+        "image": "./src/assets/Multitool.webp"
+    },
+    {
+        "Item": "Shovel",
+        "Requirements": "Tool Handle + Metal Sheet + Duct Tape",
+        "image": "./src/assets/Shovel.webp"
+    },
+    {
+        "Item": "Super Shovel",
+        "Requirements": "Shovel + Timber + Duct Tape",
+        "image": "./src/assets/Super_Shovel.webp"
+    },
+    {
+        "Item": "Cup of Molten Metal",
+        "Requirements": "Cup + Lighter + Metal Sheet",
+        "image": "./src/assets/Cup_of_Molten_Metal.webp"
+    },
+    {
+        "Item": "Nails",
+        "Requirements": "Found or crafted (Metal Sheet + File)",
+        "image": "./src/assets/Nails.webp"
+    },
+    {
+        "Item": "Baton (Guard Weapon)",
+        "Requirements": "Taken from guards",
+        "image": "./src/assets/Baton_(Guard_Weapon).webp"
+    },
+    {
+        "Item": "Taser",
+        "Requirements": "Guard exclusive",
+        "image": "./src/assets/Taser.webp"
+    },
+    {
+        "Item": "Plastic Fork",
+        "Requirements": "Cafeteria",
+        "image": "./src/assets/Plastic_Fork.webp"
+    },
+    {
+        "Item": "Plastic Spoon",
+        "Requirements": "Cafeteria",
+        "image": "undefinedPlastic_Spoon.webp"
+    }
+]
+}
