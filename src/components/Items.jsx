@@ -1,4 +1,4 @@
-export default function Item({item}){
+export default function Items({item}){
 
     return(
         <article data-item={item.Item.toLowerCase().replace(/ /g,'-')} className={`flex gap-5 justify-start z-10`}>

@@ -1,8 +1,7 @@
 import { useState, useRef } from 'react'
 import { items } from './items.json'
 import { weapons } from './weapons.json';
-
-import Item from './components/item'
+import Items from './components/Items'
 import './App.css'
 
 
@@ -60,7 +59,7 @@ function App() {
 
         {tab === 'Weapons' && 
             <div className="flex flex-col h-dvh max-w-[800px] mx-auto justify-center gap-10 min-h-109 rounded-sm" data-tab={'Journal'}>
-              {weaponsPagina.map((item, index) =>  <Item item={item} key={index} /> )}
+              {weaponsPagina.map((item, index) =>  <Items item={item} key={index} /> )}
       
               {totalPaginas && (
                 <aside className="flex gap-2 flex-wrap items-center justify-between px-4 pt-12 z-10">
@@ -84,7 +83,7 @@ function App() {
     
         {tab === 'Tools' &&
           <div className="flex flex-col h-dvh max-w-[800px] mx-auto justify-between gap-10 active z-20 rounded-sm" data-tab={'Tools'}>
-            {itensPagina.map((item, index) =>  <Item item={item} key={index} /> )}
+            {itensPagina.map((item, index) =>  <Items item={item} key={index} /> )}
       
             {totalPaginas && (
               <aside className="flex gap-2 flex-wrap items-center justify-between px-4 pt-12 z-10">
