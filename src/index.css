@@ -9,7 +9,7 @@ html{
 }
 section{
   div{
-    @apply w-full h-auto min-h-125 bg-no-repeat bg-center bg-cover px-20 py-12 shadow-2xl shadow-black/75 
+    @apply w-full h-auto min-h-125 bg-no-repeat bg-center bg-cover px-20 py-12  [box-shadow:1px_1px_0_3px_#5b5134,3px_3px_0_3px_#2f2919,5px_5px_0_3px_#211c11]
     after:content-[''] after:absolute after:left-12 after:top-0 after:h-full after:w-0.5 after:bg-red-600/20;
     clip-path: 
       path( 
@@ -28,7 +28,7 @@ section{
 ol{
   li{
     @apply max-h-10 leading-[.415] indent-1 text-[6rem] bg-clip-text text-transparent bg-[radial-gradient(circle,#8d8286_10%,#49413e_100%,#8d8286_100%)] bg-center relative;
-    
+    -webkit-box-reflect:below 0px linear-gradient(to bottom, #0000, #0009);
     &:after{
         content:')';
         color:white;

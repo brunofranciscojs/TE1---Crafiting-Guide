@@ -9,6 +9,7 @@ function App() {
   const [play, setPlay] = useState(false);
   const audioRef = useRef();
   const [bg,setBg] = useState(0)
+  let Miscellaneous, C_Devices = ''
 
   const changeTab = (tab,tbNum) =>{
       setActiveTab(tbNum)
@@ -25,12 +26,12 @@ function App() {
     },100);
   }
 
-  const tabs = { Tools, Weapons }
+  const tabs = { Tools, Weapons, Miscellaneous, C_Devices }
 
   return (
     <main className='h-dvh w-screen bg-cover bg-center flex flex-row justify-center items-center'>
 
-      <code className={`w-screen h-full absolute left-1/2 top-1/2 [translate:-50%_-50%] z-1 pointer-none brightness-50`} style={{background:`url(./src/assets/bg-${bg}.avif)`}}></code>
+      <code className={`w-screen h-full absolute left-1/2 top-1/2 [translate:-50%_-50%] z-1 pointer-none brightness-50 bg-cover! bg-no-repeat!`} style={{background:`url(./src/assets/bg-${bg}.avif)`}}></code>
 
       <SideBar setBg={setBg}/>
 
@@ -54,13 +55,13 @@ function App() {
         <nav className='realtive z-40'>
           <ul className='flex justify-center'>
             <button data-num={1} onClick={(e)=> changeTab(e.target,e.target.innerText.trim())}>Weapons</button>
-        {/* <button data-num={2} onClick={(e)=> changeTab(e.target,e.target.innerText.trim())}>C. Devices</button>
-            <button data-num={3} onClick={(e)=> changeTab(e.target,e.target.innerText.trim())}>Miscellaneous</button> */}
+            <button disabled data-num={2} onClick={(e)=> changeTab(e.target,e.target.innerText.trim().replace('.','_ '))}>C. Devices</button>
+            <button disabled data-num={3} onClick={(e)=> changeTab(e.target,e.target.innerText.trim())}>Miscellaneous</button> 
             <button data-num={0} className='active' onClick={(e)=> changeTab(e.target, e.target.innerText.trim())}>Tools</button>
           </ul>
         </nav>
       
-        <section className='relative w-full h-auto min-h-125 flex justify-center'>
+        <section className='relative w-full h-auto min-h-125 flex justify-center '>
           <span className='w-96 h-96 bg-yellow-200 opacity-15! blur-3xl rounded-full absolute left-1/2 top-1/2 [translate:-50%_-50%] z-99 mix-blend-plus-lighter pointer-events-none [view-transition-name:bright]'></span>
           <TabItem items={tabs[activeTab]}/> 
 

@@ -1,3 +1,5 @@
+import GithubIcon from "./GithubIcon";
+
 export default function SideBar({ setBg }) {
   const bgChange = (num, el) => {
       setBg(num);
@@ -21,6 +23,12 @@ export default function SideBar({ setBg }) {
           Background {num}
         </button>
       ))}
+
+      <pre className="leading-none text-white/65 mix-blend-hard-light text-xs font-100 flex items-center justify-center gap-3 translate-y-9">
+        <a href="https://github.com/brunofranciscojs/TE1-Crafiting-Guide" target="_blank" title="see on github" className="block leading-none"><GithubIcon /></a>
+        <span>made with <br/>react/tailwind</span>
+      </pre>
+
     </aside>
   );
 }
