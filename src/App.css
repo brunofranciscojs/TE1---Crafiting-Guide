@@ -9,13 +9,34 @@ section{
 }
 .aside{
   button{
-    @apply shadow-[0_0_0_2px_#0008] text-white border px-5 py-1 border-black rounded-lg bg-[#40478f] duration-200 transition-all border-t-white/45 border-r-white/45;
+    @apply shadow-[0_0_0_2px_#0008] text-white border px-5 py-1 border-black rounded-lg bg-[#40478f] duration-200 transition-all border-t-white/45 border-r-white/45 cursor-pointer hover:bg-[#1e2144];
   }
   clip-path: 
       path( 
         "M0 0 H1200 V1400 H0 Z M205 30 a6 6 0 1 0 0.01 0 M205 70 a6 6 0 1 0 0.01 0 M205 110 a6 6 0 1 0 0.01 0 M205 150 a6 6 0 1 0 0.01 0 M205 190 a6 6 0 1 0 0.01 0 M205 230 a6 6 0 1 0 0.01 0 M205 270 a6 6 0 1 0 0.01 0 M205 310 a6 6 0 1 0 0.01 0 M205 350 a6 6 0 1 0 0.01 0 M205 390 a6 6 0 1 0 0.01 0 M205 430 a6 6 0 1 0 0.01 0 M205 470 a6 6 0 1 0 0.01 0" );
 }
 
+ol{
+  li{
+    @apply max-h-15 leading-[.415] indent-1 text-[6rem] bg-clip-text text-transparent bg-[radial-gradient(circle,#8d8286_10%,#49413e_100%,#8d8286_100%)] bg-center [clip-path:polygon(0_0,100%_0,100%_150%,0_150%)] relative;
+    
+    &:after{
+        content:')';
+        color:white;
+        position:absolute;
+        left:1.8rem;
+        top:.5rem;
+        width:10px;
+        height:10px;
+        border-radius:20px;
+        font-size:10px;
+        rotate:-90deg;
+        filter:blur(1px);
+        mask-image:linear-gradient(to top,transparent 0%,black,black,transparent 80%);
+        
+    }
+  }
+}
   button.active{
     @apply brightness-100  bg-[#dad3b7]
   }

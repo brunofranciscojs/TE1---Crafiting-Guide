@@ -1,5 +1,5 @@
 {
-  "weapons":[
+  "Weapons":[
 {
         "Item": "Sock Mace",
         "Requirements": "Soap + Sock",
@@ -153,7 +153,7 @@
     {
         "Item": "Plastic Spoon",
         "Requirements": "Cafeteria",
-        "image": "undefinedPlastic_Spoon.webp"
+        "image": "./src/assets/Plastic_Spoon.webp"
     }
 ]
 }
