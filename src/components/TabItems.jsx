@@ -15,11 +15,11 @@ export default function TabItem({items}){
   }
 
   return(
-        <div className="flex flex-col h-dvh max-w-[800px] mx-auto justify-between gap-10 z-20 rounded-sm bg-[url(../src/assets/page.webp)]">
+        <div className="flex flex-col h-dvh max-w-[800px] mx-auto justify-between gap-10 z-20 rounded-sm bg-[repeating-linear-gradient(0deg,#dcd3b7,#dcd3b7_4.5%,#9b9d80_5%)]" style={{viewTransitionName:Object.keys(items)[0]}}>
 
             {itensPagina.map((item,index) =>  {
                 return(
-                    <article data-item={item.Item.toLowerCase().replace(/ /g,'-')} className={`flex gap-5 justify-start z-10`} key={index}>
+                    <article data-item={item.Item.toLowerCase().replace(/ /g,'-')} className={`flex gap-5 justify-start z-10`} key={index} style={{viewTransitionName:'item-'+index}}>
                         <figure className='w-12'>
                             <img src={item.image}  />
                         </figure>

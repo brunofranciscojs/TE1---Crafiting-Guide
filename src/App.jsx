@@ -1,7 +1,6 @@
 import { useState, useRef } from 'react'
 import Tools from './items.json'
 import Weapons from './weapons.json';
-import './App.css'
 import SideBar from './components/SideBar';
 import TabItem from './components/TabItems';
 
@@ -12,9 +11,9 @@ function App() {
   const [bg,setBg] = useState(0)
 
   const changeTab = (tab,tbNum) =>{
-    setActiveTab(tbNum)
-    document.querySelectorAll('nav button').forEach(btn => btn.classList.remove('active'))
-    tab.classList.add('active');
+      setActiveTab(tbNum)
+      document.querySelectorAll('nav button').forEach(btn => btn.classList.remove('active'))
+      tab.classList.add('active');
   }
 
   const playOST = () =>{
@@ -31,7 +30,7 @@ function App() {
   return (
     <main className='h-dvh w-screen bg-cover bg-center flex flex-row justify-center items-center'>
 
-      <code className={`w-screen h-full absolute left-1/2 top-1/2 [translate:-50%_-50%] -z-1 pointer-none brightness-50`} style={{background:`url(./src/assets/bg-${bg}.avif)`}}></code>
+      <code className={`w-screen h-full absolute left-1/2 top-1/2 [translate:-50%_-50%] z-1 pointer-none brightness-50`} style={{background:`url(./src/assets/bg-${bg}.avif)`}}></code>
 
       <SideBar setBg={setBg}/>
 
@@ -62,7 +61,7 @@ function App() {
         </nav>
       
         <section className='relative w-full h-auto min-h-125 flex justify-center'>
-          <span className='w-96 h-96 bg-yellow-200/20 blur-3xl rounded-full absolute left-1/2 top-1/2 [translate:-50%_-50%] z-99 mix-blend-plus-lighter block pointer-events-none'></span>
+          <span className='w-96 h-96 bg-yellow-200 opacity-15! blur-3xl rounded-full absolute left-1/2 top-1/2 [translate:-50%_-50%] z-99 mix-blend-plus-lighter pointer-events-none [view-transition-name:bright]'></span>
           <TabItem items={tabs[activeTab]}/> 
 
         </section>
