@@ -67,7 +67,7 @@ function App() {
 
         </section>
       </div>
-      <img src={`./src/assets/${!play ? 'off.webp' : 'on.webp'}`} className='absolute top-12 right-12 w-15 h-15 cursor-pointer drop-shadow-[0_0_1px_white] bg-white/10 rounded-full p-3 backdrop-blur-md' onClick={playOST}/>
+      <img src={`./src/assets/${!play ? 'off.webp' : 'on.webp'}`} className='absolute top-12 right-12 w-15 h-15 cursor-pointer drop-shadow-[0_0_1px_white] bg-white/10 rounded-full p-3 backdrop-blur-md z-30' onClick={playOST}/>
       {play && <audio src="./src/assets/ost.mp3" autoPlay className='absolute opacity-0' ref={audioRef}></audio>}
     </main>
   );
